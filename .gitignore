@@ -1,0 +1,8 @@
+_site/
+.jekyll-cache/
+.DS_Store
+.jekyll-metadata
+.ruby-version
+Gemfile
+Gemfile.lock
+.gitattributes

@@ -1,0 +1,274 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+:root {
+   --background-color:  rgb(242, 243, 244);
+   --main-color:        rgb(  0,   0,   0);
+   --gray-color:        rgb(105, 105, 105);
+   --chameleon-color0:  rgb(255,  51,  51);
+   --chameleon-color1:  rgb(255, 128,   0);
+   --chameleon-color2:  rgb(217, 182,  43);
+   --chameleon-color3:  rgb(204, 204,  51);
+   --chameleon-color4:  rgb(124, 153,  38);
+   --chameleon-color5:  rgb(  9, 188, 193);
+   --chameleon-color6:  rgb(  0, 128, 255);
+   --chameleon-color7:  rgb(  0,   0, 255);
+   --chameleon-color8:  rgb(128,   0, 255);
+   --chameleon-color9:  rgb(153,  61, 245);
+   --chameleon-color10: rgb(255,   0, 255);
+   --chameleon-color11: rgb(255,   0, 128);
+   --chameleon-color12: rgb(245,  61,  92);
+   --chameleon-timing:  5.0s;
+}
+
+.chameleon-color0  #Monogram  { fill: var(--chameleon-color0) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color1  #Monogram  { fill: var(--chameleon-color1) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color2  #Monogram  { fill: var(--chameleon-color2) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color3  #Monogram  { fill: var(--chameleon-color3) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color4  #Monogram  { fill: var(--chameleon-color4) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color5  #Monogram  { fill: var(--chameleon-color5) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color6  #Monogram  { fill: var(--chameleon-color6) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color7  #Monogram  { fill: var(--chameleon-color7) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color8  #Monogram  { fill: var(--chameleon-color8) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color9  #Monogram  { fill: var(--chameleon-color9) ; transition: fill var(--chameleon-timing) linear; }
+.chameleon-color10 #Monogram  { fill: var(--chameleon-color10); transition: fill var(--chameleon-timing) linear; }
+.chameleon-color11 #Monogram  { fill: var(--chameleon-color11); transition: fill var(--chameleon-timing) linear; }
+.chameleon-color12 #Monogram  { fill: var(--chameleon-color12); transition: fill var(--chameleon-timing) linear; }
+
+.chameleon-color0  #IntroPict { border-color: var(--chameleon-color0) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color1  #IntroPict { border-color: var(--chameleon-color1) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color2  #IntroPict { border-color: var(--chameleon-color2) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color3  #IntroPict { border-color: var(--chameleon-color3) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color4  #IntroPict { border-color: var(--chameleon-color4) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color5  #IntroPict { border-color: var(--chameleon-color5) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color6  #IntroPict { border-color: var(--chameleon-color6) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color7  #IntroPict { border-color: var(--chameleon-color7) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color8  #IntroPict { border-color: var(--chameleon-color8) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color9  #IntroPict { border-color: var(--chameleon-color9) ; transition: border var(--chameleon-timing) linear; }
+.chameleon-color10 #IntroPict { border-color: var(--chameleon-color10); transition: border var(--chameleon-timing) linear; }
+.chameleon-color11 #IntroPict { border-color: var(--chameleon-color11); transition: border var(--chameleon-timing) linear; }
+.chameleon-color12 #IntroPict { border-color: var(--chameleon-color12); transition: border var(--chameleon-timing) linear; }
+
+.chameleon-color0  .chameleon { color: var(--chameleon-color0) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color1  .chameleon { color: var(--chameleon-color1) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color2  .chameleon { color: var(--chameleon-color2) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color3  .chameleon { color: var(--chameleon-color3) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color4  .chameleon { color: var(--chameleon-color4) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color5  .chameleon { color: var(--chameleon-color5) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color6  .chameleon { color: var(--chameleon-color6) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color7  .chameleon { color: var(--chameleon-color7) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color8  .chameleon { color: var(--chameleon-color8) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color9  .chameleon { color: var(--chameleon-color9) ; transition: color var(--chameleon-timing) linear; }
+.chameleon-color10 .chameleon { color: var(--chameleon-color10); transition: color var(--chameleon-timing) linear; }
+.chameleon-color11 .chameleon { color: var(--chameleon-color11); transition: color var(--chameleon-timing) linear; }
+.chameleon-color12 .chameleon { color: var(--chameleon-color12); transition: color var(--chameleon-timing) linear; }
+
+/* ------------------------------------------------------ BODY ------------------------------------------------------ */
+
+body {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: flex-start;
+   align-items: stretch;
+   min-height: 100%;
+   width: 100%;
+   padding: 0 0.5em;
+   margin: 0 auto;
+   padding-top: 4em;
+   background-color: var(--background-color);
+   color: var(--main-color);
+}
+
+@media (min-width: 576px) {
+   body {
+      max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+   body {
+      max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+   body {
+      max-width: 900px;
+  }
+}
+
+body a[target="_blank"]::after {
+   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='0.8em' height='0.8em' fill='currentColor' class='bi bi-box-arrow-up-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+   margin: 0 0.10em 0 0.33em;
+}
+
+/* ----------------------------------------------------- HEADER ----------------------------------------------------- */
+
+header {
+   order: 1;
+   border-bottom: 1px solid var(--gray-color);
+   min-width: 100%;
+   padding: 0 0 1em 0;
+   margin: 0 0 1em 0;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#Monogram {
+   width: 6em;
+   height: (6*0.86025)em;
+}
+
+header h1,
+#site-title {
+   display: inline;
+   margin: 0;
+   font-size: 4em;
+   font-family: neue-haas-grotesk-display, Verdana, sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   letter-spacing: 0.1em;
+}
+
+header a {
+   color: inherit;
+   text-decoration: none;
+}
+
+/* ------------------------------------------------------ MAIN ------------------------------------------------------ */
+
+main {
+   order: 50;
+   font-size: 1em;
+   font-family: le-monde-livre-std, Garamond, serif;
+   font-weight: 300;
+   font-style: normal;
+}
+
+main h2 {
+   font-size: 3em;
+   font-family: neue-haas-grotesk-display, Verdana, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   margin: 0 0 0.2em 0;
+   text-align: center;
+}
+
+@media (min-width: 768px) {
+   main h2 {
+      text-align: left;
+   }
+}
+
+main h3 {
+   font-size: 2em;
+   font-family: neue-haas-grotesk-display, Verdana, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   margin: 0 0 0.2em 0;
+}
+
+main h4 {
+   font-size: 1.5em;
+   font-family: neue-haas-grotesk-display, Verdana, sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   margin: 0 0 0.2em 0;
+}
+
+main em,
+main i,
+main .italic {
+   font-family: le-monde-livre-std, Garamond, serif;
+   font-weight: 300;
+   font-style: italic;
+}
+
+main strong,
+main b,
+main .bold {
+   font-family: le-monde-livre-std, Garamond, serif;
+   font-weight: 500;
+   font-style: normal;
+}
+
+main .extra-bold {
+   font-family: le-monde-livre-std, Garamond, serif;
+   font-weight: 700;
+   font-style: normal;
+}
+
+main a {
+   font-weight: 500;
+   font-style: normal;
+}
+
+/* -------------------------------------------------- INTRO PICTURE ------------------------------------------------- */
+
+main #IntroPict {
+   display: block;
+   border-radius: 50%;
+   border-style: solid;
+   border-width: 8px;
+   width: 50%;
+   margin: auto;
+   height: auto;
+   max-width: 400px;
+}
+
+@media (min-width: 768px) {
+   main #IntroPict {
+      float: right;
+      width: 100%;
+      max-width: 250px;
+      margin: 0 0 0 0.5em;
+   }
+}
+
+/* ----------------------------------------------------- RESUME ----------------------------------------------------- */
+
+.resume .resume-entry {
+   margin: 0.5em 0 0 0;
+}
+
+.resume .resume-entry:first-child {
+   margin: 0 !important;
+}
+
+.resume .resume-entry .resume-employer {
+   font-size: 1.25em;
+}
+
+.resume .resume-entry .resume-job .resume-title {
+   padding-left: 0.75em;
+}
+
+.resume .resume-entry .resume-job .resume-dates {
+   float: right;
+}
+
+/* ----------------------------------------------------- FOOTER ----------------------------------------------------- */
+
+footer {
+   order: 99;
+   border-top: 1px solid var(--gray-color);
+   min-width: 100%;
+   padding: 1em 0 0 0;
+   margin: 2em 0 3em 0;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: space-between;
+   color: var(--gray-color);
+   font-size: 0.8em;
+   font-family: neue-haas-grotesk-display, Verdana, sans-serif;
+   font-weight: 200;
+   font-style: normal;
+}
+
+footer a {
+   color: var(--main-color);
+}
